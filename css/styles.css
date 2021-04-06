@@ -29,6 +29,7 @@ body {
    font-size: 1rem;
    font-family: 'Lexend Deca', sans-serif;
    color: var(--neutral-Transparent-White);
+   background-color: var(--neutral-Very-Light-Gray);
    display: flex;
    flex-direction: column;
    justify-content: center;
