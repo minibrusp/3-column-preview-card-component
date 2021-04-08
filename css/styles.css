@@ -44,13 +44,6 @@ h4 {
    color: var(--neutral-Very-Light-Gray);
 }
 
-button {
-   background-color: var(--neutral-Very-Light-Gray);
-   border: 2px solid var(--neutral-Very-Light-Gray);
-   border-radius: 50px;
-   font-size: 1rem;
-   outline: none;
-}
 
 main.cards {
    width: 87vw;
@@ -93,27 +86,34 @@ section p {
    line-height: 1.7;
 }
 
-section button {
+section a {
+   display: block;
+   background-color: var(--neutral-Very-Light-Gray);
+   border: 2px solid var(--neutral-Very-Light-Gray);
+   border-radius: 50px;
+   font-size: 1rem;
+   outline: none;
+   text-decoration: none;
    width: 150px;
-   padding: 17px 30px;
+   padding: 13px 30px;
    margin-top: 25px;
    transition: color .5s,
       background-color .5s;
 }
 
-section:nth-of-type(1) button {
+section:nth-of-type(1) a {
    color: var(--primary-Bright-Orange);
 }
 
-section:nth-of-type(2) button {
+section:nth-of-type(2) a {
    color: var(--primary-Dark-Cyan);
 }
 
-section:nth-of-type(3) button {
+section:nth-of-type(3) a {
    color: var(--primary-Very-Dark-Cyan);
 }
 
-section button:hover {
+section a:hover {
    background-color: transparent;
    color: var(--neutral-Very-Light-Gray);
 }
